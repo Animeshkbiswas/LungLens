@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🫁 Lung Lens – AI-Powered Lung Disease Detection
 
-## Getting Started
+[![Live Demo](https://img.shields.io/badge/View-Demo-blue)](https://lung-lens.vercel.app/)
+[![Hackathon Submission](https://img.shields.io/badge/Hackathon-Project-orange)](https://lung-lens.vercel.app/)
 
-First, run the development server:
+Lung Lens is a hackathon project built to democratize access to expert-level lung disease screening. By combining powerful computer vision models with generative AI, we provide users with rapid, reliable interpretations of chest X-rays — even in rural or resource-constrained environments.
+
+---
+
+## 🔍 Overview
+
+Early detection of diseases like **tuberculosis, pneumonia, and lung cancer** can save lives — but a shortage of trained radiologists often delays diagnosis. Lung Lens leverages **Vision Transformers (ViTs)** to detect conditions in chest X-rays and uses **OpenAI’s GPT API** to explain the results in human-friendly language.
+
+This repository contains the **frontend landing page** for the project — a clean, mobile-responsive React app designed to:
+
+- Upload and preview chest X-rays
+- Display AI-predicted disease classifications and confidence scores
+- Generate non-technical explanations using GPT
+- Serve as an MVP interface for doctors, health workers, or patients
+
+---
+
+## 🧪 Live Demo
+
+🌐 **Try it here:** [https://lung-lens.vercel.app](https://lung-lens.vercel.app)
+
+You can test the working prototype by uploading a sample X-ray image and viewing the AI diagnosis and GPT-generated interpretation.
+
+---
+
+## 🧠 How It Works
+
+1. **User uploads a chest X-ray image**
+2. The image is sent to our backend (powered by Vision Transformers)
+3. If any disease is detected above the threshold, it's passed to GPT
+4. GPT generates a plain-language explanation of the result
+5. The frontend displays predictions, confidence scores, and interpretation
+
+> Note: This repo includes only the frontend UI. Backend code (model inference & GPT integration) is hosted separately.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – UI Framework
+- **Tailwind CSS** – Styling
+- **Vercel** – Deployment
+- **OpenAI GPT API** – Generative explanation
+- **ViT model (backend)** – X-ray image classification (via FastAPI)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js >= 14
+- npm or yarn
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+git clone https://github.com/Aryamitra95/lung-lens.git
+cd lung-lens
+npm install
