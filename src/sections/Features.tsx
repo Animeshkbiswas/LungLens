@@ -59,7 +59,7 @@ export const Features = () => {
       transition={{
         repeat: Infinity,
         ease: "linear",
-        duration: 90,
+        duration: 110,
       }}
       className="flex gap-5 flex-none">
         {[...features,...features].map((feature)=>(
