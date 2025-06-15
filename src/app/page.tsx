@@ -5,6 +5,7 @@ import {Header} from "@/sections/Header"
 import {Hero} from "@/sections/Hero"
 import { LogoTicker } from "@/sections/LogoTicker";
 import { Prototype } from "@/sections/Prototype";
+import ImgUploadComponent from '@/components/ImgUploadComponent';
 export default function Home() {
   return (
   <>
@@ -13,6 +14,9 @@ export default function Home() {
     <LogoTicker/>
     <Features/>
     <Figma/>
+     <div className="flex justify-center items-center h-screen">
+      <ImgUploadComponent />
+    </div>
     <Prototype/>
     <Footer/>
   </>
