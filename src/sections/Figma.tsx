@@ -68,7 +68,7 @@ export const Figma = () => {
         <h2 className="text-2xl md:text-3xl text-white/70 tracking-tighter text-center font-medium max-w-xs mx-auto">Where AI meets Healthcare</h2>
       <p className="text-center text-lg  md:text-xl text-white/50 px-4 mt-5 tracking-tight max-w-xs mx-auto">A Bridge between Clinical Power and Human understanding—bringing trustworthy, accessible healthcare to those who need it most.</p>
       <div className="flex justify-center mt-8">
-       <a href="#"> 
+       <a href="https://www.figma.com/design/As2nZvAjHGS5RWFWVl4hBF/LungLens?t=uHrEO4HMXtEj1h0j-0"> 
         <button className="relative py-2 px-4 rounded-lg font-medium text-sm text-white bg-gradient-to-b from-[#15B392] to-[#54C392] animate-pulse transition-all duration-250 overflow-hidden hover:shadow-[0_0_20px_#10B981]">
   <div className="absolute inset-0 pointer-events-none">
     <div className="rounded-lg border border-white/20 absolute inset-0 [mask-image:linear-gradient(to_bottom,black,transparent)]"></div>

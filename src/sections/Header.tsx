@@ -17,10 +17,10 @@ export const Header = () => {
         </div>
         <div className='hidden md:block'>
           <nav className='flex gap-8 text-sm'>
-            <a href="" className='text-white/70 hover:text-white transition'>Features</a>
-            <a href=""className='text-white/70 hover:text-white transition'>Developement</a>
-            <a href=""className='text-white/70 hover:text-white transition'>Impact</a>
-            <a href=""className='text-white/70 hover:text-white transition'>Try Demo</a>
+            <a href="./sections/LogoTicker.tsx" className='text-white/70 hover:text-white transition'>Toolkit</a>
+            <a href="./sections/Features.tsx"className='text-white/70 hover:text-white transition'>Features</a>
+            <a href="./Figma.tsx"className='text-white/70 hover:text-white transition'>Design</a>
+            <a href="./Prototype.tsx"className='text-white/70 hover:text-white transition'>Try Demo</a>
           </nav>
         </div>
         <div className='flex gap-4 items-center'>
