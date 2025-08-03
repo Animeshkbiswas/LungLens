@@ -1,9 +1,14 @@
+
+https://github.com/user-attachments/assets/1cd719c1-fd3a-494b-8f2e-86d98003a02a
 # 🫁 Lung Lens – AI-Powered Lung Disease Detection
 
 [![Live Demo](https://img.shields.io/badge/View-Demo-blue)](https://lung-lens.vercel.app/)
 [![Hackathon Submission](https://img.shields.io/badge/Hackathon-Project-orange)](https://lung-lens.vercel.app/)
 
 Lung Lens is a hackathon project built to democratize access to expert-level lung disease screening. By combining powerful computer vision models with generative AI, we provide users with rapid, reliable interpretations of chest X-rays — even in rural or resource-constrained environments.
+
+
+
 
 ---
 
